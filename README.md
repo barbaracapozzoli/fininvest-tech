@@ -1,2 +1,2 @@
 # fininvest-tech
-Projeto Fintech FIAP - FinInvest Tech - HTML e CSS
+Projeto Fintech FIAP - FinInvest Tech - Projeto construído em HTML e CSS
