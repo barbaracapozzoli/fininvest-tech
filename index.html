@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinInvest - Web App</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h1 class="fw-bold text-brand">FinInvest Tech</h1>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="screen-card">
+            <div class="h-100 d-flex flex-column justify-content-between">
+              <div class="d-flex flex-column align-items-center pt-5">
+                <i class="bi bi-graph-up-arrow logo-icon display-1 mb-2"></i>
+                <h2 class="logo-text fw-bold m-0">FinInvest</h2>
+                <small
+                  class="text-uppercase fw-bold text-muted mt-1"
+                  style="letter-spacing: 2px"
+                  >Fintech</small
+                >
+              </div>
+
+              <div
+                class="flex-grow-1 d-flex align-items-center justify-content-center p-4"
+              >
+                <img
+                  src="./assets/images/Tela Inicial Logo.png"
+                  alt="Ilustração Financeira"
+                  class="img-fluid"
+                  style="max-height: 450px; opacity: 0.9"
+                />
+              </div>
+
+              <div>
+                <div class="list-item bg-brand border-0">
+                  <span class="fw-bold text-white">Entrar</span>
+                  <i class="bi bi-chevron-right text-white"></i>
+                </div>
+                <div class="list-item bg-brand border-0">
+                  <span class="fw-bold text-white">Abrir conta</span>
+                  <i class="bi bi-chevron-right text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="screen-card p-4">
+            <div class="d-flex justify-content-between text-brand mt-2 mb-5">
+              <i class="bi bi-person-circle fs-2"></i>
+              <i class="bi bi-question-circle-fill fs-2"></i>
+            </div>
+
+            <div class="mt-2 mb-5">
+              <h3 class="fw-bold d-flex align-items-center">
+                Olá, (Nome...)
+                <i class="bi bi-chevron-down ms-2 fs-6 text-dark"></i>
+              </h3>
+            </div>
+
+            <div class="mt-4">
+              <label class="small fw-bold text-muted mb-1 text-uppercase"
+                >Senha de acesso</label
+              >
+              <input
+                type="password"
+                class="input-line"
+                placeholder="Digite sua senha"
+              />
+            </div>
+
+            <div class="mt-auto mb-2">
+              <div
+                class="border rounded p-3 d-flex justify-content-between align-items-center list-item"
+              >
+                <span class="fw-bold small">Esqueci minha senha</span>
+                <i class="bi bi-chevron-right text-brand"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="screen-card">
+            <div
+              class="p-3 bg-brand d-flex justify-content-between align-items-center"
+            >
+              <i class="bi bi-person-circle fs-2 text-white"></i>
+              <div class="d-flex gap-3">
+                <i class="bi bi-eye fs-4 text-white"></i>
+                <i class="bi bi-question-circle-fill fs-4 text-white"></i>
+              </div>
+            </div>
+
+            <div class="p-4">
+              <span class="pb-2 text-muted">Olá, (Nome do cliente)</span>
+
+              <div class="mb-5">
+                <div
+                  class="d-flex justify-content-between text-brand fw-bold small mb-1"
+                >
+                  <span>Saldo em conta</span>
+                  <i class="bi bi-chevron-right"></i>
+                </div>
+                <h3 class="fw-bold text-brand">R$ 1.000.000,00</h3>
+              </div>
+
+              <div class="row text-center mb-4">
+                <div class="col-3 px-1">
+                  <div class="icon-circle"><i class="bi bi-bullseye"></i></div>
+                  <small class="fw-bold text-brand" style="font-size: 0.75rem"
+                    >Metas</small
+                  >
+                </div>
+                <div class="col-3 px-1">
+                  <div class="icon-circle">
+                    <i class="bi bi-currency-dollar"></i>
+                  </div>
+                  <small class="fw-bold text-brand" style="font-size: 0.75rem"
+                    >Investir</small
+                  >
+                </div>
+                <div class="col-3 px-1">
+                  <div class="icon-circle"><i class="bi bi-graph-up"></i></div>
+                  <small class="fw-bold text-brand" style="font-size: 0.75rem"
+                    >Mercado</small
+                  >
+                </div>
+                <div class="col-3 px-1">
+                  <div class="icon-circle"><i class="bi bi-grid-fill"></i></div>
+                  <small class="fw-bold text-brand" style="font-size: 0.75rem"
+                    >Pix</small
+                  >
+                </div>
+              </div>
+
+              <hr style="opacity: 0.1" />
+
+              <div
+                class="d-flex justify-content-between align-items-center py-2 px-0 mb-2 clickable"
+              >
+                <span class="fw-bold">Planeje suas metas</span>
+                <i class="bi bi-chevron-right"></i>
+              </div>
+              <hr style="opacity: 0.1; margin: 0" />
+              <div
+                class="d-flex justify-content-between align-items-center py-3 px-0 clickable"
+              >
+                <span class="fw-bold">Notícias do mercado</span>
+                <i class="bi bi-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="screen-card">
+            <div
+              class="p-3 bg-brand d-flex justify-content-between align-items-center"
+            >
+              <i class="bi bi-person-circle fs-2 text-white"></i>
+              <div class="d-flex gap-3">
+                <i class="bi bi-eye fs-4 text-white"></i>
+                <i class="bi bi-question-circle-fill fs-4 text-white"></i>
+              </div>
+            </div>
+
+            <div class="h-100 d-flex flex-column">
+              <div class="p-4 pb-0">
+                <div
+                  class="d-flex justify-content-between align-items-center text-brand fw-bold small mb-1"
+                >
+                  <span>Total em investimentos</span>
+                  <i class="bi bi-chevron-right"></i>
+                </div>
+                <h4 class="fw-bold text-brand mb-3">R$ 1.000.000,00</h4>
+
+                <button class="btn-brand mb-4 justify-content-center shadow-sm">
+                  Investir
+                </button>
+
+                <div class="d-flex gap-4 border-bottom mb-4">
+                  <span
+                    class="border-bottom border-3 border-danger pb-2 fw-bold text-dark"
+                    style="border-color: var(--fininvest-color) !important"
+                    >Meu perfil</span
+                  >
+                  <span class="pb-2 text-muted">Otimização</span>
+                </div>
+
+                <div class="mb-3">
+                  <h2 class="fw-bold mb-0">
+                    4.5 <span class="fs-6 text-brand">★★★★</span>
+                  </h2>
+                  <small class="text-muted fw-bold small"
+                    >Nota da sua carteira atual</small
+                  >
+                </div>
+              </div>
+
+              <div class="bg-light flex-grow-1 border-top mt-2 p-0">
+                <div class="list-item bg-light border-bottom">
+                  <div class="w-100 pe-3">
+                    <div class="d-flex justify-content-between">
+                      <span class="fw-bold">Fundos</span>
+                      <span class="small fw-bold text-muted">R$ 500k</span>
+                    </div>
+                    <div class="progress-bar-custom">
+                      <div class="progress-fill" style="width: 50%"></div>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right fw-bold ms-2"></i>
+                </div>
+
+                <div class="list-item bg-light border-bottom">
+                  <div class="w-100 pe-3">
+                    <div class="d-flex justify-content-between">
+                      <span class="fw-bold">Ações</span>
+                      <span class="small fw-bold text-muted">R$ 200k</span>
+                    </div>
+                    <div class="progress-bar-custom">
+                      <div class="progress-fill" style="width: 20%"></div>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right fw-bold ms-2"></i>
+                </div>
+
+                <div class="list-item bg-light border-bottom">
+                  <div class="w-100 pe-3">
+                    <div class="d-flex justify-content-between">
+                      <span class="fw-bold">Renda Fixa</span>
+                      <span class="small fw-bold text-muted">R$ 300k</span>
+                    </div>
+                    <div class="progress-bar-custom">
+                      <div class="progress-fill" style="width: 30%"></div>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right fw-bold ms-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
